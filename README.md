@@ -18,13 +18,14 @@
 6.Stop the program
 
 # PROGRAM :
+```
 Developed by : NAGINENI ROHITH
 Register Number : 212222040105
 from scapy.all import*
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
 print(result,unans)
-
+```
 # OUTPUT :
 ![image](https://github.com/NAGINENIROHITH/EX-7/assets/118344049/7185d977-1902-4ac1-bcf7-57138c850bea)
 
